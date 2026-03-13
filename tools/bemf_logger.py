@@ -1,20 +1,3 @@
-使用方法 (Usage)
-連接硬體模式：
-code
-Bash
-python bemf_logger.py --port COM3 --baud 115200
-無硬體模擬模式 (展示用)：
-code
-Bash
-python bemf_logger.py --mock
-code
-Code
----
-
-### 第二步：上傳 Python 程式碼 `bemf_logger.py`
-*（在您的 GitHub 專案中新增一個檔案名為 `bemf_logger.py`，並貼上以下由 Gemini 輔助生成的程式碼）*
-
-```python
 import serial
 import time
 import csv
